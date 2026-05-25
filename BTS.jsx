@@ -21,6 +21,7 @@ class BTS {
             while(true) {
                 if(newNode.value < temp.value) {
                     if(temp.left === null) {
+                        
                        temp.left = newNode;
                        return true 
                     } else {
